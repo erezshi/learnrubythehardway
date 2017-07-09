@@ -35,3 +35,4 @@ target.write("#{line1}\n#{line2}\n#{line3}\n")
  target.close
  target = open(filename)
  print target.read
+ target.close
